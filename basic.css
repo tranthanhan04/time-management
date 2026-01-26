@@ -1,0 +1,243 @@
+/* obecné */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 2vh;
+}
+
+p {
+    font-size: larger;
+    font-family: "Tuffy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    width: 100vw;
+    transform: translate(-50%, 0);
+    font-size: small;
+}
+
+.align-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:flex-start;
+    text-align: left;
+    margin-left: 20vw;
+    
+}
+
+
+
+
+
+/* fonty */
+
+.sedgwick-ave-regular {
+  font-family: "Sedgwick Ave", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tuffy-regular {
+  font-family: "Tuffy", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+
+/* navigace */
+
+nav {
+    padding: 1%; 
+    position: relative;
+    font-size: x-large;
+}
+
+.main-title { 
+    width: 30%; 
+    position: fixed;
+    margin: 1%;
+    top: 0;
+}
+
+
+.nav-buttons {
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 1%;
+}
+
+.nav-buttons:hover {
+    color: darkslateblue;
+}
+
+
+
+
+
+/* tlačítka*/
+
+.buttons:link {
+    font-size: larger;
+    margin: 1%;
+    background-color: lavenderblush;
+    padding: 1%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.buttons:hover {
+    background-color: darkslateblue;
+    color: lavenderblush;
+    cursor: pointer;
+}
+
+.buttons.selected {
+    background-color: darkslateblue;
+    color: lavenderblush;
+    border-color: lavenderblush;
+}
+
+
+
+
+
+
+
+
+/* start page */
+
+#quiz-title {
+    font-size: x-large;
+}
+
+#info {
+    font-size: larger;
+}
+
+#start-quiz {
+    padding: 2%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start-button {
+    font-size: x-large;
+    padding: 5%;
+    margin: 1%;
+    background-color: lavenderblush;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#start-button:hover {
+    background-color: darkslateblue;
+    color: lavenderblush;
+    cursor: pointer;
+}
+
+
+
+
+/* otázky */
+
+.questions {
+    margin: 20vh;
+    font-size: x-large;
+}
+
+h2 {
+    font-family: "Sedgwick Ave", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.responses {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 5vh;
+    width: 40vw;
+    font-family: "Tuffy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+/* výsledky */
+
+#result-section {
+    font-size: x-large;
+}
+
+.results {
+    display: none;
+    width: 60vw;
+    margin-left: 5vw;
+}
+
+
+
+
+/* ostatní */
+
+.other-section {
+    height: 90vh;
+    width: 60vw;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+.zdroje {
+    text-decoration: underline;
+    font-family: "Tuffy", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+}
+
+.tips {
+    height: 70vh;
+}
+
+
