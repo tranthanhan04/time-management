@@ -22,7 +22,7 @@ function makeChoice() {
         });
         this.classList.add("selected");
 
-        // remove old points for this question
+        // remove previous points for this question
         if (answeredQuestions.has(questionId)) {
             points -= answeredQuestions.get(questionId);
         }

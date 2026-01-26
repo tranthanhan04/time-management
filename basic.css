@@ -241,3 +241,24 @@ h2 {
 }
 
 
+/* responzivita */
+
+@media only screen and (max-width: 800px) {
+
+    .questions {
+        font-size: large;
+    }
+
+    p {
+        font-size: large;
+    }
+
+    footer {
+        font-size: xx-small;
+    }
+
+
+    
+  
+}
+
