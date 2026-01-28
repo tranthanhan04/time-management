@@ -299,6 +299,8 @@ h2 {
 
     .flex-column{
         height: 40vh;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
     }
 
     #hero-section {
@@ -327,14 +329,14 @@ h2 {
 
     .nav-buttons{
         margin-top: 5%;
-        font-size: 3vh;
+        font-size: 2.5vh;
         width: 60vw;
     }
 
     #home-text{
         max-width: 30%;
         text-align: center;
-        font-size: 3vh;
+        font-size: 100%;
     }
 
     #quiz-title{
