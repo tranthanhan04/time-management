@@ -288,11 +288,79 @@ h2 {
 
 @media only screen and (max-width: 800px) {
 
+    #start-button{
+        padding: 10%;
+        font-size: larger;
+    }
+
+    #start-quiz {
+        width: 40vw;
+    }
+
+    .flex-column{
+        height: 40vh;
+    }
+
+    #hero-section {
+        height: 80vh;
+    }
+
+    nav{
+        height: 8vh;
+    }
+    
+    #main-title-bg{
+        left: 0;
+        top: 0;
+        margin: 0%;
+        height: 8%;
+        width: 100vw;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 20%);
+    }
+    
+
+    img{
+        max-width: 50vw;
+        height: auto;
+    }
+
+    .nav-buttons{
+        margin-top: 5%;
+        font-size: 3vh;
+        width: 60vw;
+    }
+
+    #home-text{
+        max-width: 30%;
+        text-align: center;
+        font-size: 3vh;
+    }
+
+    #quiz-title{
+        font-size: 100%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        text-align: center;
+        max-width: 80vw;
+    }
+
+    #info{
+        padding-left: 15vw;
+        padding-right: 15vw;
+        margin-bottom: 5vh;
+    }
+
+    
+
     .questions {
-        font-size: large;
+        font-size: small;
+        margin: 1vh;
+    
     }
 
     .responses {
+        font-size: 120%;
         width: 80vw;
     }
 
@@ -301,7 +369,8 @@ h2 {
     }
 
     footer {
-        font-size: xx-small;
+        height: 5vh;
+        bottom: 0;
     }
 
     .flex-row {
@@ -310,6 +379,36 @@ h2 {
     }
 
 
+    h2{
+        font-size: 3.2vh;
+        text-align: center;
+    }
+
+    #result-section {
+        height: 95vh;
+    }
+
+    .other-section {
+        height: 85vh;
+        width: 80vw;
+        padding-left: 10vw;
+    }
+
+    .align-left {
+        margin-left: 5vw;
+    }
+
+    .zdroje {
+        font-size: medium;
+    }
+
+    #question1 {
+        padding-top: 10vh;
+    }
+
+    #question3, #question5 {
+        padding-top: 5vh;
+    }
     
   
 }
