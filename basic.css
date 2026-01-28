@@ -9,10 +9,21 @@ html {
 }
 
 body {
-    margin: 0; 
+    margin: 0;
     padding: 0;
     height: 100vh;
+
+    background:
+        linear-gradient(
+            rgba(219, 184, 179, 0.2),
+            rgba(219, 184, 179, 0.2)
+        ),
+        url("elements/annie-spratt-xz485Eku8O4-unsplash.jpg");
+
+    background-size: cover;
+    background-attachment: fixed;
 }
+
 
 a {
     text-decoration: none;
@@ -27,13 +38,6 @@ p {
     font-style: normal;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
 
 footer {
     display: flex;
@@ -46,6 +50,22 @@ footer {
     font-size: small;
 }
 
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .align-left {
     display: flex;
     flex-direction: column;
@@ -55,6 +75,8 @@ footer {
     margin-left: 20vw;
     
 }
+
+
 
 
 
@@ -101,10 +123,11 @@ nav {
     top: 0;
     right: 0;
     margin: 1%;
+    color: black;
 }
 
 .nav-buttons:hover {
-    color: darkslateblue;
+    color: rgb(60, 63, 85);
 }
 
 
@@ -116,22 +139,22 @@ nav {
 .buttons:link {
     font-size: larger;
     margin: 1%;
-    background-color: lavenderblush;
+    background-color: white;
     padding: 1%;
     border-radius: 5px;
     text-align: center;
 }
 
 .buttons:hover {
-    background-color: darkslateblue;
-    color: lavenderblush;
+    background-color: rgb(60, 63, 85);
+    color: white;
     cursor: pointer;
 }
 
 .buttons.selected {
-    background-color: darkslateblue;
-    color: lavenderblush;
-    border-color: lavenderblush;
+    background-color: rgb(60, 63, 85);
+    color: white;
+    border-color: white;
 }
 
 
@@ -163,14 +186,14 @@ nav {
     font-size: x-large;
     padding: 5%;
     margin: 1%;
-    background-color: lavenderblush;
+    background-color: white;
     border-radius: 5px;
     text-align: center;
 }
 
 #start-button:hover {
-    background-color: darkslateblue;
-    color: lavenderblush;
+    background-color: rgb(60, 63, 85);
+    color: white;
     cursor: pointer;
 }
 
@@ -216,6 +239,26 @@ h2 {
     margin-left: 5vw;
 }
 
+#repeat-button {
+    font-size: x-large;
+    padding: 3%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#repeat-button:hover {
+    background-color: rgb(60, 63, 85);
+    color: white;
+    cursor: pointer;
+}
+
+.repeat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
@@ -249,12 +292,21 @@ h2 {
         font-size: large;
     }
 
+    .responses {
+        width: 80vw;
+    }
+
     p {
         font-size: large;
     }
 
     footer {
         font-size: xx-small;
+    }
+
+    .flex-row {
+        flex-direction: column;
+        height: 100vh;
     }
 
 

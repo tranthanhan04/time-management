@@ -26,7 +26,7 @@
     </nav>
 
     <main>
-        <section id="hero-section">
+        <section id="hero-section" class="flex-column">
             <div id="quiz-title" class="sedgwick-ave-regular">
                 <h1> Jak dobře umíte hospodařit s časem? </h1>
                 <h2> 5 otázek/2 min.</h2>
@@ -42,57 +42,86 @@
             </div>
         </section>
 
-        <section id="question1" class="questions">
-            <h2> 1. jak si určíte své priority při plánování práce? </h2>
-            <div class="responses">
-                <a href="#question2" id="response1-1" class="answer1 buttons"> soustředím se na úkoly, které jsou nejvíce naléhavé a důležité</a>
-                <a href="#question2" id="response1-2" class="answer2 buttons"> začnu s tím, co mě zrovna nejvíce stresuje </a>
-                <a href="#question2" id="response1-3" class="answer3 buttons"> většinou si své priority a cíle nedokážu stanovit a přeskakuji z jednoho na druhé </a>
+        <section id="question1" class="questions flex-row">
+            <div class="flex-column">
+                <h2> 1. jak si určíte své priority při plánování práce? </h2>
+                <div class="responses">
+                    <a href="#question2" id="response1-1" class="answer1 buttons"> soustředím se na úkoly, které jsou nejvíce naléhavé a důležité</a>
+                    <a href="#question2" id="response1-2" class="answer2 buttons"> začnu s tím, co mě zrovna nejvíce stresuje </a>
+                    <a href="#question2" id="response1-3" class="answer3 buttons"> většinou si své priority a cíle nedokážu stanovit a přeskakuji z jednoho na druhé </a>
+                </div>
+            </div>
+            <div>
+                <img src="elements/kolaze/kolaz1.png" height="700">
             </div>
         </section>
 
-        <section id="question2" class="questions">
-            <h2> 2. jak často odkládáte práci na poslední chvíli? </h2>  
-            <div class="responses">
-                <a href="#question3" id="response2-1" class="answer1 buttons"> vůbec, snažím se vše splnit podle svého časového plánu </a>
-                <a href="#question3" id="response2-2" class="answer2 buttons"> občas, jelikož jsem často nějak vyrušen/a z práce </a>
-                <a href="#question3" id="response2-3" class="answer3 buttons"> většinou, jelikož hodně prokrastinuji </a>
+        <section id="question2" class="questions flex-row">
+            <div>
+                <img src="elements/kolaze/kolaz2.png" width="600" >
+            </div>
+            <div class="flex-column">
+                <h2> 2. jak často odkládáte práci na poslední chvíli? </h2>  
+                <div class="responses">
+                    <a href="#question3" id="response2-1" class="answer1 buttons"> vůbec, snažím se vše splnit podle svého časového plánu </a>
+                    <a href="#question3" id="response2-2" class="answer2 buttons"> občas, jelikož jsem často nějak vyrušen/a z práce </a>
+                    <a href="#question3" id="response2-3" class="answer3 buttons"> většinou, jelikož hodně prokrastinuji </a>
+                </div>
             </div>
         </section>
 
-        <section id="question3" class="questions">
-            <h2> 3. jak často si dopřejete odpočinek? </h2>
-            <div class="responses">
-                <a href="#question4" id="response3-1" class="answer1 buttons"> během práce si dělám krátké přestávky a na konci dne mám dost času na relaxaci a dostatečný spánek </a>
-                <a href="#question4" id="response3-2" class="answer2 buttons"> střídám bloky práce a delší přestávky </a>
-                <a href="#question4" id="response3-3" class="answer3 buttons"> většinou nemám moc času na kvalitní odpočinek, jelikož nestíhám dodělat práci </a>
+        <section id="question3" class="questions flex-row">
+            <div class="flex-column">
+                <h2> 3. jak často si dopřejete odpočinek? </h2>
+                <div class="responses">
+                    <a href="#question4" id="response3-1" class="answer1 buttons"> během práce si dělám krátké přestávky a na konci dne mám dost času na relaxaci a dostatečný spánek </a>
+                    <a href="#question4" id="response3-2" class="answer2 buttons"> střídám bloky práce a delší přestávky </a>
+                    <a href="#question4" id="response3-3" class="answer3 buttons"> většinou nemám moc času na kvalitní odpočinek, jelikož nestíhám dodělat práci </a>
+                </div>
+            </div>
+            
+            <div>
+                <img src="elements/kolaze/kolaz3.png" width="600" >
             </div>
         </section>
 
-        <section id="question4" class="questions">
-            <h2> 4. jak moc snahy dáváte do jednotlivých úkolů? </h2>
-            <div class="responses">
-                <a href="#question5" id="response4-1" class="answer1 buttons"> tolik, kolik je potřeba, aby byla práce co nejvíce efektivní </a>
-                <a href="#question5" id="response4-2" class="answer2 buttons"> co nejvíce, protože jsem perfekcionista </a>
-                <a href="#question5" id="response4-3" class="answer3 buttons"> velmi málo, úkoly často nedokončím </a>
+        <section id="question4" class="questions flex-row">
+            <div>
+                <img src="elements/kolaze/kolaz4.png" height="700" >
+            </div>
+            <div class="flex-column">
+                <h2> 4. jak moc snahy dáváte do jednotlivých úkolů? </h2>
+                <div class="responses">
+                    <a href="#question5" id="response4-1" class="answer1 buttons"> tolik, kolik je potřeba, aby byla práce co nejvíce efektivní </a>
+                    <a href="#question5" id="response4-2" class="answer2 buttons"> co nejvíce, protože jsem perfekcionista </a>
+                    <a href="#question5" id="response4-3" class="answer3 buttons"> velmi málo, úkoly často nedokončím </a>
+                </div>
             </div>
         </section>
 
-        <section id="question5" class="questions">
-            <h2> 5. jak často při práci pociťujete stres, pocit viny a vlastní neschopnosti? </h2>
-            <div class="responses">
-                <a href="#result-section" id="response5-1" class="answer1 buttons"> skoro nikdy, při práci bývám v klidu </a>
-                <a href="#result-section" id="response5-2" class="answer2 buttons"> občas, záleží na situaci  </a>
-                <a href="#result-section" id="response5-3" class="answer3 buttons"> skoro pořád, práci často nemám pod kontrolou </a>
+        <section id="question5" class="questions flex-row">
+             <div class="flex-column">
+                <h2> 5. jak často při práci pociťujete stres, pocit viny a vlastní neschopnosti? </h2>
+                <div class="responses">
+                    <a href="#result-section" id="response5-1" class="answer1 buttons"> skoro nikdy, při práci bývám v klidu </a>
+                    <a href="#result-section" id="response5-2" class="answer2 buttons"> občas, záleží na situaci  </a>
+                    <a href="#result-section" id="response5-3" class="answer3 buttons"> skoro pořád, práci často nemám pod kontrolou </a>
+                </div>
+             </div>
+            <div>
+                <img src="elements/kolaze/kolaz5.png" height="700" >
             </div>
         </section>
 
-        <section id="result-section">
+        <section id="result-section" class="flex-column">
             <div id="result1" class="results align-left">
                 <h2> 11-15 bodů <br> Jste pánem času! </h2>
                 <p>
                 Gratulujeme, váš time management je na velmi dobré úrovni. Přesto je důležité nepřeceňovat své možnosti, dbát na duševní zdraví a se svým časem nakládat s rozvahou. Pokud se chcete nadále zlepšovat, můžete se dozvědět více v sekci „rady“.
                 </p>
+                <div class="repeat">
+                    <a href="index.html" id="repeat-button" class="sedgwick-ave-regular"> zopakovat kvíz </a> 
+                </div>
             </div>
 
             <div id="result2" class="results align-left">
@@ -100,6 +129,9 @@
                 <p>
                 Je vidět, že se snažíte, ale ne vždy vše dopadne podle vašich představ. Nezoufejte, nejste v tom sami. Zaměřte se na správné stanovení priorit a hranic, aby toho na vás nebylo příliš mnoho. Nezapomínejte, že nejdůležitější je vaše zdraví. Pro konkrétní tipy navštivte sekci „rady“.
                 </p>
+                <div class="repeat">
+                    <a href="index.html" id="repeat-button" class="sedgwick-ave-regular"> zopakovat kvíz </a> 
+                </div>
             </div>
 
             <div id="result3" class="results align-left">
@@ -107,7 +139,11 @@
                 <p>
                 Odkládání úkolů a jejich následné dokončování ve spěchu vás vystavuje zbytečnému stresu. Pokud se tento zlozvyk opakuje, může v budoucnu vést i k závažnějším problémům, jako je syndrom vyhoření. Zkuste se zamyslet nad svým time managementem a přečtěte si více informací v sekci „rady“.
                 </p>
+                <div class="repeat">
+                    <a href="index.html" id="repeat-button" class="sedgwick-ave-regular"> zopakovat kvíz </a> 
+                </div>
             </div>
+            
         </section>
 
 
